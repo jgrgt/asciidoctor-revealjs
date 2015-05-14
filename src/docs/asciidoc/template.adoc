@@ -1,0 +1,16 @@
+= Template
+Jens Geiregat <jens.geiregat@axians.com>
+2015-05-12
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+
+== Introduction
+
+* First
+* Second
+
+include::first.adoc[]
+
+include::second.adoc[]
+

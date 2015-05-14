@@ -1,0 +1,26 @@
+= reveal.js Example
+
+An example project that demonstrates how to convert AsciiDoc to reveal.js using the Asciidoctor Gradle plugin.
+
+Based on https://github.com/asciidoctor/asciidoctor-gradle-examples/tree/master/asciidoc-to-revealjs-example
+Bumped the reveal.js version, added PlantUML support
+
+== Dependencies
+
+PlantUML needs the 'dot' command. Make sure you install Graphviz on your system!
+
+== Usage
+
+Convert the AsciiDoc to reveal.js by invoking the 'asciidoctor' goal:
+
+ $ ./gradlew clean asciidoctor
+
+== IntelliJ
+
+If you're using IntelliJ you can generate the IDE's files via:
+
+ $ ./gradlew idea
+
+Open the file _build/asciidoc/reveal/example-manual.html_ in your browser to see the generated revealjs file.
+
+Or just Open... the build.gradle file.
